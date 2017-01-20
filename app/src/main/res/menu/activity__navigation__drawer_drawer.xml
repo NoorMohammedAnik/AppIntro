@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Police Station" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="RAB" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Fire Service" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Hospital" />
+
+        <item
+            android:id="@+id/nav_blood_bank"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Blood Bank" />
+
+        <item
+            android:id="@+id/nav_ambulance"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ambulance" />
+
+        <item
+            android:id="@+id/nav_university"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="University" />
+
+        <item
+            android:id="@+id/nav_bpdb"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="BPDB" />
+
+        <item
+            android:id="@+id/nav_wasa"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="WASA" />
+
+        <item android:title="Settings">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_eleventh_fragment"
+                        android:icon="@drawable/ic_menu_manage"
+                        android:title="Location" />
+                    <item
+                        android:id="@+id/nav_thirteen_fragment"
+                        android:icon="@drawable/ic_menu_manage"
+                        android:title="Notification" />
+                    <item
+                        android:id="@+id/nav_twelve_fragment"
+                        android:icon="@drawable/ic_menu_manage"
+                        android:title="About Us" />
+                </group>
+            </menu>
+        </item>
+
+    </group>
+
+</menu>
